@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aniken's Adventure Game</title>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <div id="game-container">
-            <h1>Aniken's Adventure Game</h1>
-            <div id="question-container">
-                <p id="question">Your adventure begins now...</p>
+    <main>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Aniken's Adventure Game</title>
+            <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body>
+            <div id="game-container">
+                <h1>Aniken's Adventure Game</h1>
+                <div id="question-container">
+                    <p id="question" aria-live="assertive">Your adventure begins now...</p>
+                </div>
+                <div id="answers" aria-live="assertive">
+                    <!-- Answer buttons will be injected here by JavaScript -->
+                </div>
             </div>
-            <div id="answers">
-                <!-- Answer buttons will be injected here by JavaScript -->
-            </div>
-        </div>
-        <script src="script.js"></script>
-    </body>
+            <script src="script.js"></script>
+        </body>
+    </main>
 </html>
