@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    font-family: 'Comic Sans MS', 'Times New Roman', 'Arial', sans-serif;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    h1 {
+        text-shadow: 0 0 20px red;
+        max-width: 100%;
+    }
+
+    #game-container {
+        background: black;
+        color: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px red;
+        width: 400px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #answers button {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.75rem;
+        border: none;
+        border-radius: 0.5rem;
+        background: blue;
+        color: white;
+        max-width: 100%;
+    }
+
+        #answers button:hover {
+            background: purple;
+            color: gray;
+        }
+
+@media only screen and (max-width: 256px) {
+    #game-container,
+    #answers {
+        overflow-wrap: break-word;
+    }
+}
