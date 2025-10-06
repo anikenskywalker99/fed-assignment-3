@@ -28,18 +28,26 @@ Return to Branch A
 
 Broken cart off to side of road, check on it?
 
-##### Branch B-1 First Result - Yes
+##### Branch B-1-i Question - Yes Check
 
-Both the road and cart disappear, you end up lost
+Some people are hurt, do you help?
 
-##### Branch B-1-i Question - No
+###### Branch B-1-i First Result - No Help
+
+Road and cart disappear, you are lost
+
+###### Branch B-1-i Second Result - Yes Help
+
+The people help you find your way to town
+
+##### Branch B-1-ii Question - No Check
 
 See a deer on path, stay on path or attempt detour?
 
-###### Branch B-1-i First Result - Stay
+###### Branch B-1-ii First Result - Stay
 
 Deer disappears as you get close, continue to town
 
-###### Branch B-1-i Second Result - Detour
+###### Branch B-1-ii Second Result - Detour
 
 Both the road and deer disappear, you end up lost
