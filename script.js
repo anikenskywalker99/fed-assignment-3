@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         } else {
             console.error("CurrentState is not valid");
         }
-        console.log(text)
+        
         question.textContent = text;
         answers.innerHTML = "";
         addAnswerButton(state);
